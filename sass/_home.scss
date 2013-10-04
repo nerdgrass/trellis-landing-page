@@ -1,0 +1,43 @@
+body.home {
+	background: url('../images/bg-diamond-beige.jpg');
+	background-color: #777;
+	padding-top:1em;
+}
+.flat-button {
+  @include button-base;
+  @include button-size;
+  width:100%;
+}
+@media only screen and (min-width: 768px) {
+    .flat-button {
+      @include button-base;
+      @include button-size;
+      width:auto;
+    }
+}
+.left-flourish {
+	background: url('../images/trellis-home-splash-left.png') no-repeat;
+	background-size:100%;
+	height:8em;
+}
+.right-flourish {
+	background: url('../images/trellis-home-splash-right.png') no-repeat;
+	background-size:100%;
+	height:8em;
+}
+.id-mark {
+	margin:0 auto;
+}
+.slide {
+	margin-top: 2em;
+	background:$lighter-green;
+	width:100%;
+	padding-bottom:2em;
+}
+.footer-wrapper {
+	padding-top:1em;
+	background:$darkest-green;
+}
+.footer-wrapper p {
+	color:$beige;
+}
